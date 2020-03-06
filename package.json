@@ -1,0 +1,27 @@
+{
+  "name": "graphql-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build-ts": "tsc",
+    "postinstall": "npm run build-ts",
+    "start": "npm run serve",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/server.ts",
+    "prod": "tsc && node ./build/server.js",
+    "serve": "node build/server.js",
+    "watch-node": "nodemon build/server.js",
+    "watch-ts": "tsc -w",
+    "dev:debug": "nodemon --inspect src/entry.ts"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.7.3",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^5.9.3",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
+}
