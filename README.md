@@ -19,7 +19,6 @@ Criar uma template de um projeto graphql-yoga, para facilitar na hora de começa
 
 ## Usar
 `npm i` - to install denpedencias
-    or
 `yarn` - to install denpedencias
 
 ## Scripts 
