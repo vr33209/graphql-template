@@ -6,7 +6,7 @@ Estrutura de diretorios **npm**.
 # Intuito
 Criar uma template de um projeto graphql-yoga, para facilitar na hora de começar,estrutura pronta.
 
-## Directories
+## Diretorios
 ```
 ├── src/             (project root)
 |   ├── models      (Base de dados)
